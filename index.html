@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Project</title>
+  <link rel="icon" type="image/png" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+</head>
+<body>
+<header class="header hidden">
+  <div class="container">
+    <a href="./index.html" class="header-logo">
+      <img src="./images/apple-touch-icon.png" alt="logo">
+    </a>
+
+    <button type="button" class="menu-open-button" data-menu-open-btn>
+      <svg class="menu-open-icon" width="40" height="40">
+        <use href="./images/symbol-defs.svg#icon-open-menu"></use>
+      </svg>
+    </button>
+
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li><a href="./index.html" class="header-nav-link current">ГЛАВНАЯ</a></li>
+        <li><a href="./index.html">ГАЛЕРЕЯ</a></li>
+        <li><a href="./index.html">ПРОЕКТЫ</a></li>
+        <li><a href="./index.html">СЕРТИФИКАТЫ</a></li>
+        <li><a href="./index.html">КОНТАКТЫ</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="mob-menu is-hidden">
+    <div class="container">
+      <button type="button" class="menu-close-button" data-menu-close-btn>
+        <svg class="menu-close-icon" width="40" height="40">
+          <use href="./images/symbol-defs.svg#icon-close-menu"></use>
+        </svg>
+      </button>
+      <ul class="mob-menu-list">
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero hidden">
+    <div class="hero-container">
+      <div class="hero-content hidden">
+        <h1 class="hero-title">
+          PROJECT <br>
+          <span class="hero-title-accent">HOME</span>
+        </h1>
+        <div class="swiper-btn-group">
+          <button class="swiper-btn swiper-btn-prev">
+            <svg width="24px" height="24px" class="swiper-prev-btn-icon">
+              <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+          <button class="swiper-btn swiper-btn-next">
+            <svg width="24px" height="24px">
+              <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="hero-images-wrap">
+        <div class="hero-swiper-container swiper-container">
+          <div class="hero-swiper-wrapper swiper-wrapper">
+            <div class="swiper-slide first-slide"></div>
+            <div class="swiper-slide second-slide"></div>
+          </div>
+        </div>
+        <a href="./index.html" class="main-button light hero-button">ВЗГЛЯНУТЬ</a>
+      </div>
+    </div>
+  </section>
+  <section class="about hidden">
+    <div class="container">
+      <div class="about-content hidden">
+        <h2 class="about-title section-title">О компании</h2>
+        <p class="about-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        </p>
+        <a href="./index.html" class="main-button light about-button">ЧИТАТЬ</a>
+      </div>
+      <div class="about-gallery">
+        <ul class="about-gallery-left-list">
+          <li class="about-item first hidden">
+            <img src="./images/1.jpg" alt="about-1" loading="lazy"/>
+          </li>
+          <li class="about-item second hidden">
+            <img src="./images/3.jpg" alt="about-3" loading="lazy"/>
+          </li>
+        </ul>
+        <ul class="about-gallery-right-list">
+          <li class="about-item third hidden">
+            <img src="./images/2.jpg" alt="about-2" loading="lazy"/>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container">
+      <h2 class="features-title section-title hidden">Основные задачи</h2>
+      <ul class="features-list">
+        <li class="features-item hidden">
+          <p class="feature-number">1</p>
+          <p class="feature-text">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+        </li>
+        <li class="features-item hidden">
+          <p class="feature-number">2</p>
+          <p class="feature-text">Постоянно совершенствовать качество предоставляемых услуг путем обучения
+
+            персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="projects">
+    <div class="container">
+      <h2 class="projects-title section-title hidden">Наши проекты</h2>
+      <div class="projects-gallery">
+        <ul class="projects-gallery-upper-list">
+          <li class="projects-item hidden">
+            <div class="shadow-wrap">
+              <div class="shadow-content">
+                <h4 class="project-item-title">ДОСУГОВЫЙ ЦЕНТР</h4>
+                <a href="./index.html" class="project-item-link">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <img src="./images/build4.jpg" alt="project-1" loading="lazy"/>
+          </li>
+          <li class="projects-item hidden">
+            <div class="shadow-wrap">
+              <div class="shadow-content">
+                <h4 class="project-item-title">Loremos ipsum</h4>
+                <a href="./index.html" class="project-item-link">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <img src="./images/build2.jpg" alt="project-2" loading="lazy"/>
+          </li>
+        </ul>
+        <ul class="projects-gallery-lower-list">
+          <li class="projects-item hidden">
+            <div class="shadow-wrap">
+              <div class="shadow-content">
+                <h4 class="project-item-title">Lorem</h4>
+                <a href="./index.html" class="project-item-link">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <img src="./images/build3.jpg" alt="project-3" loading="lazy"/>
+          </li>
+          <li class="projects-item hidden">
+            <div class="shadow-wrap">
+              <div class="shadow-content">
+                <h4 class="project-item-title">Lorem</h4>
+                <a href="./index.html" class="project-item-link">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <img src="./images/build4.jpg" alt="project-4" loading="lazy"/>
+          </li>
+          <li class="projects-item hidden">
+            <div class="shadow-wrap">
+              <div class="shadow-content">
+                <h4 class="project-item-title">Lorem ipsum</h4>
+                <a href="./index.html" class="project-item-link">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+            <img src="./images/build5.jpg" alt="project-5" loading="lazy"/>
+          </li>
+        </ul>
+      </div>
+      <a href="./index.html" class="main-button dark projects-button hidden">ВСЕ ПРОЕКТЫ</a>
+    </div>
+  </section>
+  <section class="connection">
+    <div class="container">
+      <h2 class="connection-title section-title hidden">Связаться с нами</h2>
+      <div class="connection-content-wrap">
+        <form class="connection-form hidden">
+          <div class="form-field-wrap">
+            <input class="input" type="text" placeholder=" " /><label class="form-label">Имя</label>
+          </div>
+          <div class="form-field-wrap">
+            <input class="input" type="tel" placeholder=" " required />
+            <label class="form-label">Номер телефона<span class="required-field">*</span></label>
+          </div>
+          <div class="form-field-wrap">
+            <input class="input" type="email" placeholder=" " required />
+            <label class="form-label">E-mail<span class="required-field">*</span></label>
+          </div>
+          <div class="form-field-wrap">
+            <input class="input" type="text" placeholder=" " />
+            <label class="form-label">Интересующий товар/услуга</label>
+          </div>
+          <div class="form-field-wrap textarea-wrap">
+            <textarea class="input textarea-input" placeholder=" " required></textarea>
+            <label class="form-label textarea-label">Сообщение<span class="required-field">*</span></label>
+          </div>
+          <input type="checkbox" id="check-text" name="policy" value="policy" class="input-check visually-hidden" required/>
+          <label for="check-text" class="check-text-label">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</label>
+          <button type="submit" class="main-button dark">ОТПРАВИТЬ</button>
+        </form>
+        <div class="connection-picture-wrap hidden">
+          <img src="./images/registration.jpg" alt="connect with us" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-upper-box hidden">
+    <div class="container">
+      <a href="" class="logo footer-logo">
+        <img src="./images/logo.png" alt="logo">
+      </a>
+      <div class="footer-content">
+        <div>
+          <nav>
+            <h3 class="footer-top-text">Информация</h3>
+            <ul class="footer-nav-list">
+              <li><a href="" class="footer-nav-link">Главная</a></li>
+              <li><a href="" class="footer-nav-link">Галерея</a></li>
+              <li><a href="" class="footer-nav-link">Проекты</a></li>
+              <li><a href="" class="footer-nav-link">Сертификаты</a></li>
+              <li><a href="" class="footer-nav-link">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-contacts-wrap">
+          <h3 class="footer-top-text">Контакты</h3>
+          <address>
+            <ul class="footer-contact-list">
+              <li class="footer-contacts-item">
+                <a href="" class="footer-contacts-link">
+                  <svg class="footer-contacts-icon" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-map-pin"></use>
+                  </svg>
+                  100000, Республика Казахстан, <br>
+                  г. Караганда, ул. Телевизионная 10</a>
+              </li>
+              <li class="footer-contacts-item">
+                <a href="tel:+380000000000" class="footer-contacts-link">
+                  <svg class="footer-contacts-icon" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-phone"></use>
+                  </svg>+38 (000) 000 00 00</a>
+              </li>
+              <li class="footer-contacts-item">
+                <a href="mailto:mail@gmail.com" class="footer-contacts-link">
+                  <svg class="footer-contacts-icon" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-mail"></use>
+                  </svg>mail@gmail.com</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+      <div class="footer-socials-wrap">
+        <h2 class="footer-top-text">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li>
+            <a href="https://www.facebook.com/">
+              <svg width="20px" height="20px" class="footer-socials-link">
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">
+              <svg width="20px" height="20px" class="footer-socials-link">
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/">
+              <svg width="20px" height="20px" class="footer-socials-link">
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/">
+              <svg width="20px" height="20px" class="footer-socials-link">
+                <use href="./images/symbol-defs.svg#icon-pinterest"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+         <div class="copyright">&copy; 2019 Digital Project. Все права защищены.</div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/mobile_version.js"></script>
+  <script src="./js/script.js"></script>
+
+
+</body>
+</html>
